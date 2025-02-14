@@ -273,7 +273,7 @@ local function RetainPart(Part)
 end)
 
     radius = math.min(1000, radius + 5)
-    RadiusDisplay.Text = "半径: " .. radius
+    RadiusDisplay.Text = "radius: " .. radius
     playSound("12221967")
 end)
 
